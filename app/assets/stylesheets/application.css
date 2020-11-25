@@ -18,3 +18,9 @@
  *= require vendor/cubeportfolio/css/cubeportfolio.min.css
  *= require vendor/aos/dist/aos.css
  */
+
+ @font-face {
+    font-family: "Mabry Pro";
+    font-weight: 900 !important;
+    src: url("/font/Mabry\ Pro.otf") format("opentype");
+  }

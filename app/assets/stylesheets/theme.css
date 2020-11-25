@@ -57,7 +57,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -6415,7 +6415,7 @@ a.close.disabled {
   z-index: 9999;
   display: block;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6528,7 +6528,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -23276,14 +23276,14 @@ a:hover .text-hover-primary {
 
 .quill-custom .ql-editor p {
   font-size: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
   color: #1e2022;
 }
 
 .quill-custom .ql-editor.ql-blank::before {
   left: 1.5rem;
   color: #97a4af;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
   font-style: normal;
 }
 
@@ -23329,7 +23329,7 @@ a:hover .text-hover-primary {
 .quill-custom .ql-snow .ql-tooltip::before {
   display: block;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   border-bottom: 0.0625rem solid #e7eaf3;
@@ -23366,7 +23366,7 @@ a:hover .text-hover-primary {
 .quill-custom .ql-snow .ql-tooltip.ql-editing input[type=text] {
   height: auto;
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mabry Pro", sans-serif;
 }
 
 .quill-custom .ql-snow .ql-tooltip.ql-editing input[type=text]:focus {
