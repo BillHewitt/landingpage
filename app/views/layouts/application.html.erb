@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Landing</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Home Page | Front - Responsive Website Template</title>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
-    <%= yield %>
-  </body>
+  <!-- Favicon -->
+  <%= favicon_link_tag '/assets/favicon.ico' %>
+
+  <!-- Font -->
+  <%= stylesheet_link_tag    'https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap' %>
+
+  <!-- CSS Implementing Plugins -->
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+  <!-- CSS Front Template -->
+  <%= stylesheet_link_tag    'theme', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= yield %>
+</body>
 </html>
