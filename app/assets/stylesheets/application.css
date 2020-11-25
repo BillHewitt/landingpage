@@ -12,4 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ *= require vendor/font-awesome/css/all.min.css
+ *= require vendor/hs-mega-menu/dist/hs-mega-menu.min.css
+ *= require vendor/dzsparallaxer/dzsparallaxer.css
+ *= require vendor/cubeportfolio/css/cubeportfolio.min.css
+ *= require vendor/aos/dist/aos.css
  */
