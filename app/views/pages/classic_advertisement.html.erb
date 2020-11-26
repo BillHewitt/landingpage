@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Title -->
-  <title>Classic Studio | Front - Responsive Website Template</title>
-
-  <!-- Required Meta Tags Always Come First -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../../favicon.ico">
-
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
-
-  <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="/vendor/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-  <link rel="stylesheet" href="/vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="/vendor/dzsparallaxer/dzsparallaxer.css">
-  <link rel="stylesheet" href="/vendor/hs-video-bg/dist/hs-video-bg.min.css">
-  <link rel="stylesheet" href="/vendor/aos/dist/aos.css">
-
-  <!-- CSS Front Template -->
-  <link rel="stylesheet" href="/css/theme.css">
-</head>
-<body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="header header-box-shadow-on-scroll header-sticky-top header-show-hide"
+  <header id="header" class="header header-box-shadow-on-scroll header-abs-top header-bg-transparent header-show-hide"
           data-hs-header-options='{
             "fixMoment": 1000,
             "fixEffect": "slide"
@@ -64,7 +36,7 @@
 
           <!-- Navigation -->
           <div id="navBar" class="collapse navbar-collapse">
-            <div class="navbar-body header-sticky-top-inner">
+            <div class="navbar-body header-abs-top-inner">
               <ul class="navbar-nav">
                 <!-- Home -->
                 <li class="hs-has-mega-menu navbar-nav-item">
@@ -521,415 +493,649 @@
   </header>
   <!-- ========== END HEADER ========== -->
 
-  <!-- ========== MAIN ========== -->
-  <main id="content" role="main">
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main" class="overflow-hidden">
     <!-- Hero Section -->
-    <div class="container space-top-3 space-bottom-1 space-bottom-sm-2">
-      <div class="w-lg-75">
-        <h1 class="display-3 mb-5">
-          We are a
-          <span class="text-warning">
-            <span class="js-text-animation"></span>
-          </span>
-          <br>
-          full stack web agency
-        </h1>
-        <p class="lead">As well as being game-changers when it comes to theme innovation, HS has some of the bestselling themes in its locker.</p>
+    <div class="position-relative bg-img-hero" style="background-image: url(/svg/components/abstract-shapes-12.svg);">
+      <div class="container space-top-3 space-bottom-lg-3">
+        <div class="row justify-content-lg-between align-items-lg-center pt-lg-5">
+          <div class="col-lg-5">
+            <!-- Info -->
+            <div class="mb-5">
+              <h1 class="display-4 mb-3">The ad that manages itself</h1>
+              <p class="lead">Automate all your ad management strategies for Facebook, Google and Snapchat Ads in a single interface.</p>
+            </div>
+            <!-- End Info -->
+
+            <!-- Form -->
+            <form class="js-validate mb-7">
+              <div class="form-row">
+                <div class="col-sm col-md-6 col-lg mb-2">
+                  <div class="js-form-message">
+                    <label class="sr-only" for="signupSrEmail">Your email</label>
+                    <div class="input-group">
+                      <input type="email" class="form-control" name="email" id="signupSrEmail" placeholder="Your email" aria-label="Your email" required
+                             data-msg="Please enter a valid email address.">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-auto">
+                  <button type="submit" class="btn btn-primary btn-block">Request Demo</button>
+                </div>
+              </div>
+            </form>
+            <!-- End Form -->
+
+            <span class="d-block small font-weight-bold text-cap mb-2">Front partners:</span>
+
+            <!-- Clients -->
+            <div class="row">
+              <div class="col-4 col-sm-3 my-2">
+                <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/airbnb.svg" alt="Image Description">
+              </div>
+              <div class="col-4 col-sm-3 my-2">
+                <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/fitbit.svg" alt="Image Description">
+              </div>
+              <div class="col-4 col-sm-3 my-2">
+                <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/weebly.svg" alt="Image Description">
+              </div>
+            </div>
+            <!-- End Clients -->
+          </div>
+        </div>
       </div>
+
+      <!-- Gallery -->
+      <div class="col-lg-6 position-lg-absolute bottom-0 right-0 transform-rotate-5 mr-lg-n11">
+        <div class="row align-items-end mx-n2">
+          <div class="col px-2 mb-5">
+            <div class="mb-3" data-aos="fade-up">
+              <img class="img-fluid shadow-lg rounded" src="/img/407x472/img2.jpg" alt="Image Description">
+            </div>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="100">
+              <img class="img-fluid shadow-lg rounded" src="/img/407x472/img3.jpg" alt="Image Description">
+            </div>
+          </div>
+
+          <div class="col px-2">
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="200">
+              <img class="img-fluid shadow-lg rounded" src="/img/407x520/img1.jpg" alt="Image Description">
+            </div>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="300">
+              <img class="img-fluid shadow-lg rounded" src="/img/407x407/img1.jpg" alt="Image Description">
+            </div>
+          </div>
+
+          <div class="col px-2 mb-7">
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="400">
+              <img class="img-fluid shadow-lg rounded" src="/img/407x472/img6.jpg" alt="Image Description">
+            </div>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="500" data-aos-offset="-50">
+              <img class="img-fluid shadow-lg rounded" src="/img/407x115/img1.jpg" alt="Image Description">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Gallery -->
     </div>
     <!-- End Hero Section -->
 
-    <!-- Video Section -->
-    <div class="container-fluid px-lg-5">
-      <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll min-h-300rem min-h-lg-600rem" data-options='{direction: "normal"}'>
-        <div class="dzsparallaxer--target" style="height: 120%;">
-          <div class="js-video-bg d-none d-md-block position-absolute top-0 right-0 bottom-0 left-0 w-100 h-100"
-               data-hs-video-bg-options='{
-                 "videoId": "/video/working-in-office"
-               }'></div>
-
-          <div class="d-lg-none position-absolute top-0 right-0 bottom-0 left-0 bg-img-hero" style="background-image: url(/img/1920x1080/img20.jpg);"></div>
-        </div>
-      </div>
-    </div>
-    <!-- End Video Section -->
-
-    <!-- Clients Section -->
-    <div class="container space-bottom-2 space-bottom-lg-3">
-      <div class="row">
-        <div class="col-lg-4 pt-7 pt-lg-0">
-          <!-- Card -->
-          <div class="card bg-primary shadow-primary-lg mt-lg-n11 p-4 p-lg-7" data-aos="fade-up">
-            <div class="text-white mb-7">
-              <span class="d-block small text-warning font-weight-bold text-cap mb-2">Who partners with Front?</span>
-              <h2 class="font-size-2 text-white">Thousands of companies, including platforms, and plugin builders work with Front.</h2>
-            </div>
-            <a class="btn btn-block btn-light transition-3d-hover" href="#">View More</a>
-          </div>
-          <!-- End Card -->
-        </div>
-
-        <div class="col-lg-8 pt-7">
-          <!-- Logos -->
-          <div class="row text-center">
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/alphabet.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/kaplan.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/slack.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/google.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/fitbit.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/weebly.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/mapbox.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/uber.svg" alt="Image Description">
-            </div>
-            <div class="col-4 py-4">
-              <img class="max-w-11rem max-w-md-13rem mx-auto" src="/svg/clients-logo/airbnb.svg" alt="Image Description">
-            </div>
-          </div>
-          <!-- End Logos -->
-        </div>
-      </div>
-    </div>
-    <!-- End Clients Section -->
-
-    <!-- Divider -->
-    <div class="container">
-      <div class="w-lg-65 mx-lg-auto">
-        <hr class="my-0">
-      </div>
-    </div>
-    <!-- End Divider -->
-
-    <!-- Works Section -->
+    <!-- Icon Blocks Section -->
     <div class="container space-2 space-lg-3">
       <!-- Title -->
-      <div class="w-lg-60 mb-5 mb-sm-11">
-        <span class="d-block small font-weight-bold text-cap mb-2">Featured case studies</span>
-        <h2 class="text-lh-lg">We help businesses bring ideas to life in the digital world, by designing and implementing the technology tools that they need to win.</h2>
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <span class="d-block small font-weight-bold text-cap mb-2">Benefits</span>
+        <h2 class="h1">What our 37,500+ clients love about Front</h2>
       </div>
       <!-- End Title -->
 
-      <div class="card-md-columns card-md-2-count card-md-2-gap card-lg-5-gap pt-md-11">
-        <!-- Card -->
-        <a class="card shadow-none bg-soft-primary text-indigo transition-3d-hover p-4 p-lg-7 mt-md-n11 mb-3 mb-sm-5 mb-lg-11" href="#">
-          <img class="img-fluid mb-7" src="/img/755x470/img1.jpg" alt="Image Description">
-          <div class="media align-items-center max-w-35rem mb-3">
-            <div class="mr-3">
-              <img class="img-fluid" src="/svg/illustrations/sketch.svg" alt="Sketch" width="32">
-            </div>
-            <div class="media-body">
-              <small class="d-block mb-0">Compatible with Sketch</small>
-            </div>
+      <div class="row">
+        <div class="col-md-4 mb-5 mb-md-0">
+          <!-- Icon Blocks -->
+          <div class="text-center px-lg-3">
+            <figure class="max-w-10rem mx-auto mb-4">
+              <img class="img-fluid" src="/svg/icons/icon-45.svg" alt="SVG">
+            </figure>
+            <h3>Less routine<br>– more creativity</h3>
+            <p>Automate best strategies and focus more on generating hq creatives.</p>
           </div>
-          <h3 class="d-flex justify-content-between">
-            Front: A digital UI Kit
-            <span class="d-block">
-              <span class="badge badge-success badge-pill ml-3">UI Kit</span>
-            </span>
-          </h3>
-          <p class="text-dark">Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution.</p>
-        </a>
-        <!-- End Card -->
+          <!-- End Icon Blocks -->
+        </div>
 
-        <!-- Card -->
-        <a class="card shadow-none bg-soft-info text-indigo transition-3d-hover p-4 p-lg-7 mb-3 mb-sm-5 mb-lg-11" href="#">
-          <img class="img-fluid mb-7" src="/img/mockups/img13.png" alt="Image Description">
-          <h3 class="mb-1">Building brand through design</h3>
-          <small class="d-block mb-3">Graphic design and illustration</small>
-          <p class="text-dark">High-detailed business scenes for landing pages' headers and mobile screens.</p>
-        </a>
-        <!-- End Card -->
-
-        <!-- Card -->
-        <a class="card shadow-none bg-soft-danger text-indigo transition-3d-hover p-4 p-lg-7 mb-3 mb-sm-5 mb-lg-11" href="#">
-          <img class="img-fluid mb-7" src="/img/mockups/img12.png" alt="Image Description">
-          <h3 class="mb-1">Pixeel Group</h3>
-          <small class="d-block mb-3">Graphic design and illustration</small>
-          <p class="text-dark">We work with the largest companies all over the world.</p>
-        </a>
-        <!-- End Card -->
-
-        <!-- Card -->
-        <a class="card shadow-none bg-soft-indigo text-indigo transition-3d-hover p-4 p-lg-7 mb-3 mb-sm-5 mb-lg-11" href="#">
-          <img class="img-fluid mb-7" src="/img/mockups/img11.png" alt="Image Description">
-          <div class="media align-items-center max-w-35rem mb-3">
-            <div class="mr-3">
-              <img class="img-fluid" src="/svg/illustrations/sketch.svg" alt="Sketch" width="32">
-            </div>
-            <div class="media-body">
-              <small class="d-block mb-0">Compatible with Sketch</small>
-            </div>
+        <div class="col-md-4 mb-5 mb-md-0">
+          <!-- Icon Blocks -->
+          <div class="text-center px-lg-3">
+            <figure class="max-w-10rem mx-auto mb-4">
+              <img class="img-fluid" src="/svg/icons/icon-29.svg" alt="SVG">
+            </figure>
+            <h3>Scale<br>budgets efficiently</h3>
+            <p>Scale your budgets fast and increase ROI at the same time.</p>
           </div>
-          <h3 class="d-flex justify-content-between">
-            Atlas: A travel app UI kit from Front
-            <span class="d-block">
-              <span class="badge badge-success badge-pill ml-3">UI kit</span>
-            </span>
-          </h3>
-          <p class="text-dark">This UI kit has all you need to manage your hypothetical customer's smart devices like thermostats, lights, and other appliances that make for a connected modern home.</p>
-        </a>
-        <!-- End Card -->
-      </div>
+          <!-- End Icon Blocks -->
+        </div>
 
-      <div class="text-center mt-7 mt-lg-0">
-        <a class="btn btn-primary btn-wide transition-3d-hover px-sm-5" href="../portfolio/single-page-list.html">View All Works</a>
+        <div class="col-md-4">
+          <!-- Icon Blocks -->
+          <div class="text-center px-lg-3">
+            <figure class="max-w-10rem mx-auto mb-4">
+              <img class="img-fluid" src="/svg/icons/icon-31.svg" alt="SVG">
+            </figure>
+            <h3>Hundreds<br>of thousands saved</h3>
+            <p>Stop inefficient budget spend or pour more into a winning ad when needed.</p>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
       </div>
     </div>
-    <!-- End Works Section -->
-
-    <!-- Divider -->
-    <div class="container">
-      <div class="w-lg-65 mx-lg-auto">
-        <hr class="my-0">
-      </div>
-    </div>
-    <!-- End Divider -->
+    <!-- End Icon Blocks Section -->
 
     <!-- Testimonials Section -->
-    <div class="container space-2 space-lg-3">
-      <div class="w-md-80 w-lg-60 mx-md-auto">
-        <!-- Quote -->
-        <figure class="mx-auto text-center mb-5">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
-             viewBox="0 0 8 8" style="enable-background:new 0 0 8 8;" xml:space="preserve">
-            <path fill="#bdc5d1" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-              C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-              c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-              C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
-          </svg>
-        </figure>
-        <!-- End Quote -->
-
-        <div class="js-slick-carousel slick"
-             data-hs-slick-carousel-options='{
-               "fade": true,
-               "autoplay": true,
-               "autoplaySpeed": 7000,
-               "dots": true,
-               "dotsClass": "slick-pagination mt-7"
-             }'>
-          <!-- Testimonial -->
-          <div class="js-slide">
-            <div class="text-center mb-5">
-              <blockquote class="h3 text-lh-lg">The template is really nice and offers quite a large set of options. It's beautiful and the coding is done quickly and seamlessly. Thank you!</blockquote>
-            </div>
-            <div class="d-flex justify-content-center align-items-center w-lg-50 mx-auto">
-              <div class="avatar avatar-circle">
-                <img class="avatar-img" src="/img/100x100/img11.jpg" alt="Image Description">
-              </div>
-              <div class="ml-3">
-                <h4 class="mb-0">Christina Kray</h4>
-                <small class="text-muted">Head of IT department at Google</small>
-              </div>
-            </div>
+    <div class="overflow-hidden space-bottom-2">
+      <div class="position-relative bg-navy text-center rounded mx-3 mx-md-11">
+        <div class="container space-1 space-md-2 space-lg-3 position-relative z-index-2">
+          <!-- Title -->
+          <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-7">
+            <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Case study</span>
+            <img class="max-w-15rem" src="/svg/clients-logo/uber-white.svg" alt="SVG Logo">
           </div>
-          <!-- End Testimonial -->
+          <!-- End Title -->
 
-          <!-- Testimonial -->
-          <div class="js-slide">
-            <div class="text-center mb-5">
-              <blockquote class="h3 text-lh-lg">It's beautiful and the coding is done quickly and seamlessly. Keep it up!</blockquote>
-            </div>
-            <div class="d-flex justify-content-center align-items-center w-lg-50 mx-auto">
-              <div class="avatar avatar-circle">
-                <img class="avatar-img" src="/img/100x100/img8.jpg" alt="Image Description">
-              </div>
-              <div class="ml-3">
-                <h4 class="mb-0">James Austin</h4>
-                <small class="text-muted">CEO of Slack</small>
-              </div>
-            </div>
+          <!-- Blockquote -->
+          <div class="w-md-75 mx-md-auto mb-6">
+            <blockquote class="h3 text-white font-weight-normal text-lh-lg">"I am absolutely floored by the level of care and attention to detail the team at Htmlstream have put into this theme and for one can guarantee that I will be a return customer. I've had my eye on this for quite some time but I've only recently be able to get hands on, with it."</blockquote>
           </div>
-          <!-- End Testimonial -->
+          <!-- End Blockquote -->
+
+          <!-- Reviewer -->
+          <div class="w-lg-50 mx-lg-auto">
+            <div class="avatar avatar-circle mb-3">
+              <img class="avatar-img" src="/img/100x100/img10.jpg" alt="Image Description">
+            </div>
+            <h4 class="text-white mb-0">Luisa</h4>
+            <span class="d-block text-white-70">Head of IT department</span>
+          </div>
+          <!-- End Reviewer -->
+
+          <!-- SVG Quote -->
+          <figure class="position-absolute bottom-0 right-0 left-0 z-index-n1 mb-11">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25rem" height="25rem"
+               viewBox="0 0 8 8" style="enable-background:new 0 0 8 8;" xml:space="preserve">
+              <path fill="#fff" opacity=".025" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
+                C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
+                c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
+                C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
+            </svg>
+          </figure>
+          <!-- End SVG Quote -->
+
+          <!-- SVG Shapes -->
+          <figure class="position-absolute top-0 left-0 mt-10 ml-10">
+            <img src="/svg/components/abstract-shapes-11.svg" alt="SVG">
+          </figure>
+          <figure class="max-w-15rem w-100 position-absolute bottom-0 right-0">
+            <div class="mb-n7 mr-n7">
+              <img class="img-fluid" src="/svg/components/dots-4.svg" alt="Image Description">
+            </div>
+          </figure>
+          <!-- End SVG Shapes -->
         </div>
       </div>
     </div>
     <!-- End Testimonials Section -->
 
-    <!-- Divider -->
-    <div class="container">
-      <div class="w-lg-65 mx-lg-auto">
-        <hr class="my-0">
-      </div>
-    </div>
-    <!-- End Divider -->
-
-    <!-- Services Section -->
-    <div class="container space-2 space-lg-3">
+    <!-- Articles Section -->
+    <div class="container space-2">
       <!-- Title -->
-      <div class="w-lg-60 mb-5 mb-sm-11">
-        <span class="d-block small font-weight-bold text-cap mb-2">Front services</span>
-        <h2 class="text-lh-lg">Improve &amp; boost your services with Front that provides all kinds of services and will help your audience grow through all platforms.</h2>
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <span class="d-block small font-weight-bold text-cap mb-2">Platforms</span>
+        <h2 class="h1">Three platforms – handled by one tool</h2>
       </div>
       <!-- End Title -->
 
       <div class="row">
-        <div class="col-lg-5 mb-3 mb-sm-5 mb-lg-0">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5 mb-lg-0">
           <!-- Card -->
-          <a class="card bg-primary text-white min-h-380rem h-100 transition-3d-hover" href="#" data-aos="fade-up">
-            <figure class="position-sm-absolute top-0 left-0 w-100">
-              <img class="img-fluid rounded-top" src="/svg/components/abstract-shapes-8.svg" alt="SVG">
-            </figure>
-
-            <article class="d-flex align-content-end flex-wrap h-100 p-4">
-              <h3 class="text-white">Have a meaningful impact</h3>
-              <p class="text-white-70">We are aggressive about giving opportunities to Fronts who have proven to be good at executing on them, regardless of where they are in their career.</p>
-              <span class="text-white font-weight-bold">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </article>
+          <a class="card shadow-soft h-100 text-center transition-3d-hover" href="#">
+            <div class="card-body pt-7 px-7">
+              <figure class="avatar mx-auto mb-4">
+                <img class="avatar-img" src="/img/160x160/img20.png" alt="Logo">
+              </figure>
+              <h3>Facebook Ads</h3>
+              <p class="text-body">Automated rules, Auto Post Boosting, Bulk Creation and reports in Slack.</p>
+            </div>
+            <div class="card-footer border-0 pt-0 pb-7 px-7">
+              <span class="font-weight-bold">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></span>
+            </div>
           </a>
           <!-- End Card -->
         </div>
 
-        <div class="col-sm-6 col-lg mb-3 mb-sm-0">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5 mb-lg-0">
           <!-- Card -->
-          <a class="card min-h-380rem h-100 transition-3d-hover" href="#" data-aos="fade-up" data-aos-delay="150">
-            <figure class="position-sm-absolute top-0 left-0 w-100">
-              <img class="img-fluid rounded-top" src="/svg/components/abstract-shapes-7.svg" alt="SVG">
-            </figure>
-
-            <article class="d-flex align-content-end flex-wrap h-100 p-4">
-              <h3>Documentation</h3>
-              <p class="text-body">Whether you're a startup or a global enterprise, learn how to integrate with Front.</p>
-              <span class="text-primary font-weight-bold">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </article>
+          <a class="card shadow-soft h-100 text-center transition-3d-hover" href="#">
+            <div class="card-body pt-7 px-7">
+              <figure class="avatar mx-auto mb-4">
+                <img class="avatar-img" src="/img/160x160/img35.png" alt="Logo">
+              </figure>
+              <h3>Google Ads</h3>
+              <p class="text-body">The best scripts alternative and quick reports for the whole team.</p>
+            </div>
+            <div class="card-footer border-0 pt-0 pb-7 px-7">
+              <span class="font-weight-bold">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></span>
+            </div>
           </a>
           <!-- End Card -->
         </div>
 
-        <div class="col-sm-6 col-lg">
+        <div class="col-md-6 col-lg-4">
           <!-- Card -->
-          <a class="card min-h-380rem h-100 transition-3d-hover" href="#" data-aos="fade-up" data-aos-delay="200">
-            <figure class="position-sm-absolute top-0 left-0 w-100">
-              <img class="img-fluid rounded-top" src="/svg/components/abstract-shapes-6.svg" alt="SVG">
-            </figure>
-
-            <article class="d-flex align-content-end flex-wrap h-100 p-4">
-              <h3>Explore the Snippets tools</h3>
-              <p class="text-body">Quickly Front sample components, copy-paste codes.</p>
-              <span class="text-primary font-weight-bold">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></span>
-            </article>
+          <a class="card shadow-soft h-100 text-center transition-3d-hover" href="#">
+            <div class="card-body pt-7 px-7">
+              <figure class="avatar mx-auto mb-4">
+                <img class="avatar-img" src="/img/160x160/img36.png" alt="Logo">
+              </figure>
+              <h3>Snapchat Ads</h3>
+              <p class="text-body">Scale profitable snaps and optimize your cost per swipe by using automated rules.</p>
+            </div>
+            <div class="card-footer border-0 pt-0 pb-7 px-7">
+              <span class="font-weight-bold">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></span>
+            </div>
           </a>
           <!-- End Card -->
         </div>
       </div>
     </div>
-    <!-- End Services Section -->
+    <!-- End Articles Section -->
 
-    <!-- Contacts Section -->
-    <div class="position-relative">
-      <div class="bg-primary bg-img-hero" style="background-image: url(/svg/components/abstract-shapes-5.svg);">
-        <div class="container space-top-2 space-top-lg-3 space-bottom-1">
-          <!-- Title -->
-          <div class="w-lg-50 text-center text-white mx-lg-auto mb-7">
-            <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Contact us</span>
-            <h2 class="text-white text-lh-lg">We collaborate with ambitious brands and people. <span class="text-warning">Let's chat.</span></h2>
+    <!-- Stats Section -->
+    <div class="container space-bottom-2 space-bottom-lg-3">
+      <div class="w-lg-80 mx-lg-auto">
+        <div class="row">
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="text-center">
+              <span class="d-block font-size-5 font-size-md-down-3 text-dark font-weight-bold">2M+</span>
+              <p>Actions automated monthly</p>
+            </div>
           </div>
-          <!-- End Title -->
 
-          <div class="position-relative w-lg-50 z-index-2 mx-lg-auto">
-            <!-- Form -->
-            <form class="js-validate card shadow-lg p-4 p-lg-7">
-              <div class="js-form-message form-group mb-4">
-                <label for="inputName" class="input-label">Name</label>
-                <input type="text" class="form-control" name="name" id="inputName" placeholder="Alex Hecker" aria-label="Alex Hecker" required
-                       data-msg="Please enter your name.">
-              </div>
-              <div class="form-group mb-4">
-                <label for="inputCompanyName" class="input-label">Company name <span class="text-muted font-weight-normal ml-1">(optional)</span></label>
-                <input type="text" class="form-control" name="companyName" id="inputCompanyName" placeholder="Pixeel Ltd." aria-label="Pixeel Ltd.">
-              </div>
-              <div class="js-form-message form-group mb-4">
-                <label for="emailAddress" class="input-label">Email address</label>
-                <input type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="alexhecker@pixeel.com" aria-label="alexhecker@pixeel.com" required
-                       data-msg="Please enter a valid email address.">
-              </div>
-              <div class="js-form-message form-group mb-4">
-                <label for="descriptionTextarea" class="input-label">Tell us more</label>
-                <textarea class="form-control" rows="3" id="descriptionTextarea" placeholder="Hi there, I would like to ..." required
-                          data-msg="Please enter your message."></textarea>
-              </div>
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="text-center">
+              <span class="d-block font-size-5 font-size-md-down-3 text-dark font-weight-bold">$55M+</span>
+              <p>Ad budgets managed monthly</p>
+            </div>
+          </div>
 
-              <div class="d-md-flex justify-content-md-end">
-                <button type="submit" class="btn btn-primary btn-wide transition-3d-hover">Submit</button>
-              </div>
-            </form>
-            <!-- End Form -->
+          <div class="col-sm-4">
+            <div class="text-center">
+              <span class="d-block font-size-5 font-size-md-down-3 text-dark font-weight-bold">37K+</span>
+              <p>Clients around the world</p>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- SVG Shape -->
-      <figure class="position-absolute right-0 bottom-0 left-0">
-        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             viewBox="0 0 1920 323" enable-background="new 0 0 1920 323" xml:space="preserve" style="margin-bottom: -8px;">
-          <polygon fill="#fff" points="0,323 1920,323 1920,0 "/>
-        </svg>
-      </figure>
-      <!-- End SVG Shape -->
     </div>
-    <!-- End Contacts Section -->
+    <!-- End Stats Section -->
+
+    <!-- Pricing Title Section -->
+    <div class="bg-light">
+      <div class="container space-2 space-lg-3">
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+          <span class="d-block small font-weight-bold text-cap mb-2">Pricing</span>
+          <h2 class="h1">Pick the best plan based on your ad spend</h2>
+        </div>
+
+        <!-- Pricing -->
+        <div class="row align-items-lg-center no-gutters">
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <!-- Card -->
+            <div class="card text-center z-index-2" data-aos="fade-up">
+              <div class="card-body p-7">
+                <!-- Group Toggle Switch -->
+                <div class="btn-group btn-group-sm btn-group-toggle btn-group-segment btn-group-pills my-5" data-toggle="buttons">
+                  <label class="btn active">
+                    <input type="radio" name="options" id="option1" class="js-switch-text" checked
+                           data-hs-switch-text-options='{
+                             "target": [{
+                               "selector": "#rangeSliderResult",
+                               "text": 500
+                             }, {
+                               "selector": "#rangeSliderSecondaryResult",
+                               "text": 50000
+                             }],
+                             "startUpdateOnChange": true
+                           }'> Monthly
+                  </label>
+                  <label class="btn">
+                    <input type="radio" name="options" id="option2" class="js-switch-text"
+                           data-hs-switch-text-options='{
+                             "target": [{
+                               "selector": "#rangeSliderResult",
+                               "text": 475
+                             }, {
+                               "selector": "#rangeSliderSecondaryResult",
+                               "text": 25000
+                             }],
+                             "startUpdateOnChange": true
+                           }'> Yearly
+
+                    <!-- Arrow -->
+                    <span class="position-absolute top-0 text-nowrap mt-n5 ml-3 ml-md-7">
+                      <svg class="d-block position-absolute mt-n2 ml-n4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 99.3 57" width="48">
+                        <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M2,39.5l7.7,14.8c0.4,0.7,1.3,0.9,2,0.4L27.9,42"/>
+                        <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M11,54.3c0,0,10.3-65.2,86.3-50"/>
+                      </svg>
+                      <span class="badge badge-primary badge-pill py-sm-2 px-sm-3">Save up to 10%</span>
+                    </span>
+                    <!-- End Arrow -->
+                  </label>
+                </div>
+                <!-- End Group Toggle Switch -->
+
+                <!-- Range Slider -->
+                <div class="display-4 font-size-md-down-4 text-dark">
+                  $<span id="rangeSliderResult"></span>/mo
+                </div>
+                <div class="d-flex justify-content-center mb-5">
+                  Maximum ad spend:
+                  <span class="text-primary ml-1">$25000/mo</span>
+                </div>
+                <!-- End Range Slider -->
+
+                <div class="mb-5">
+                  <input class="js-ion-range-slider" type="text"
+                         data-hs-ion-range-slider-options='{
+                           "extra_classes": "range-slider",
+                           "type": "single",
+                           "min": 250,
+                           "max": 750,
+                           "step": 25,
+                           "from": 500,
+                           "secondary_val": {
+                             "steps": [250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600, 625, 650, 675, 700, 725, 750],
+                             "values": [25000, 27000, 30000, 32000, 35000, 37000, 40000, 42000, 45000, 47000, 50000, 52000, 55000, 57000, 60000, 62000, 65000, 67000, 70000, 72000, 75000]
+                           },
+                           "prefix": "$",
+                           "secondary_target_el": "#rangeSliderSecondaryResult",
+                           "result_min_target_el": "#rangeSliderResult"
+                         }'>
+                </div>
+
+                <!-- List -->
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="media text-left text-body mb-2">
+                      <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                      <div class="media-body">
+                        All features
+                      </div>
+                    </div>
+                    <div class="media text-left text-body mb-2">
+                      <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                      <div class="media-body">
+                        Email support
+                      </div>
+                    </div>
+                    <div class="media text-left text-body mb-2">
+                      <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                      <div class="media-body">
+                        Google ads
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <div class="media text-left text-body mb-2">
+                      <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                      <div class="media-body">
+                        SSO via Google
+                      </div>
+                    </div>
+                    <div class="media text-left text-body mb-2">
+                      <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                      <div class="media-body">
+                        API access
+                      </div>
+                    </div>
+                    <div class="media text-left text-body mb-2">
+                      <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                      <div class="media-body">
+                        Facebook ads
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End List -->
+              </div>
+
+              <div class="card-footer px-7">
+                <a class="font-weight-bold" href="#">Start free 14-day trial <i class="fas fa-angle-right fa-sm ml-1"></i></a>
+              </div>
+            </div>
+            <!-- End Card -->
+          </div>
+
+          <div class="col-lg-6">
+            <!-- Card -->
+            <div class="card bg-navy text-center ml-lg-n2" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body p-7">
+                <figure class="max-w-10rem mx-auto mb-4">
+                  <img class="img-fluid" src="/svg/icons/icon-white-4.svg" alt="SVG">
+                </figure>
+                <h2 class="text-white">Customized</h2>
+                <p class="text-white">Design a custom package for your business.</p>
+                <p class="text-white-70">Available for businesses with large payments volume or unique business models.</p>
+              </div>
+
+              <hr class="opacity-xs my-0">
+
+              <div class="card-footer border-0 bg-navy px-7">
+                <a class="text-white font-weight-bold" href="#">Contact sales <i class="fas fa-angle-right fa-sm ml-1"></i></a>
+              </div>
+            </div>
+            <!-- End Card -->
+          </div>
+        </div>
+        <!-- End Pricing -->
+      </div>
+    </div>
+    <!-- End Pricing Title Section -->
   </main>
-  <!-- ========== END MAIN ========== -->
+  <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- ========== FOOTER ========== -->
-  <footer class="container space-2 text-center">
-    <!-- Logo -->
-    <a class="d-inline-flex align-items-center mb-3" href="index.html" aria-label="Front">
-      <img class="brand" src="/svg/logos/logo.svg" alt="Logo">
-    </a>
-    <!-- End Logo -->
+  <footer class="container">
+    <div class="space-top-2 space-bottom-1 space-bottom-lg-2">
+      <div class="row justify-content-lg-between">
+        <div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0">
+          <!-- Logo -->
+          <div class="mb-4">
+            <a href="index.html" aria-label="Front">
+              <img class="brand" src="/svg/logos/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <!-- End Logo -->
 
-    <p class="font-size-1 mb-1">We're part of the <a href="#">Pixeel Ltd.</a> family along with <a href="http://htmlstream.com">Htmlstream</a>.</p>
-    <p class="font-size-1">&copy; Front. 2020 Htmlstream. All rights reserved.</p>
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item">
+              <a class="nav-link media" href="#">
+                <span class="media">
+                  <span class="fas fa-location-arrow mt-1 mr-2"></span>
+                  <span class="media-body">
+                    153 Williamson Plaza, Maggieberg
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link media" href="#">
+                <span class="media">
+                  <span class="fas fa-phone-alt mt-1 mr-2"></span>
+                  <span class="media-body">
+                    +1 (062) 109-9222
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
 
-    <!-- Social Networks -->
-    <ul class="list-inline mb-0">
-      <li class="list-inline-item mb-2 mb-sm-0">
-        <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
-          <i class="fab fa-dribbble"></i>
-        </a>
-      </li>
-      <li class="list-inline-item mb-2 mb-sm-0">
-        <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-inline-item mb-2 mb-sm-0">
-        <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
-          <i class="fab fa-medium-m"></i>
-        </a>
-      </li>
-      <li class="list-inline-item mb-2 mb-sm-0">
-        <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li class="list-inline-item mb-2 mb-sm-0">
-        <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-inline-item mb-2 mb-sm-0">
-        <a class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-    <!-- End Social Networks -->
+        <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+          <h5>Company</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Careers <span class="badge badge-primary ml-1">We're hiring</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Customers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Hire us</a></li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+          <h5>Features</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">Press</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Release notes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Integrations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg">
+          <h5>Documentation</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="mailto:example@gmail.com">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Status</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">API Reference</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tech Requirements</a></li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg">
+          <h5>Resources</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="media align-items-center">
+                  <i class="fa fa-info-circle mr-2"></i>
+                  <span class="media-body">Help</span>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="media align-items-center">
+                  <i class="fa fa-user-circle mr-2"></i>
+                  <span class="media-body">Your Account</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-0">
+
+    <div class="space-1">
+      <div class="row align-items-md-center mb-7">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy &amp; Policy</a>
+            </li>
+            <li class="nav-item opacity mx-3">&#47;</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms</a>
+            </li>
+            <li class="nav-item opacity mx-3">&#47;</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Site Map</a>
+            </li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-md-6 text-md-right">
+          <ul class="list-inline mb-0">
+            <!-- Social Networks -->
+            <li class="list-inline-item">
+              <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                <i class="fab fa-google"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <!-- End Social Networks -->
+
+            <!-- Language -->
+            <li class="list-inline-item">
+              <div class="hs-unfold">
+                <a class="js-hs-unfold-invoker dropdown-toggle btn btn-xs btn-soft-secondary" href="javascript:;"
+                   data-hs-unfold-options='{
+                    "target": "#footerLanguage",
+                    "type": "css-animation",
+                    "animationIn": "slideInDown"
+                   }'>
+                  <img class="dropdown-item-icon" src="/vendor/flag-icon-css/flags/4x3/us.svg" alt="United States Flag">
+                  <span>United States</span>
+                </a>
+
+                <div id="footerLanguage" class="hs-unfold-content dropdown-menu dropdown-unfold dropdown-menu-bottom mb-2">
+                  <a class="dropdown-item active" href="#">English</a>
+                  <a class="dropdown-item" href="#">Deutsch</a>
+                  <a class="dropdown-item" href="#">Español</a>
+                  <a class="dropdown-item" href="#">Français</a>
+                  <a class="dropdown-item" href="#">Italiano</a>
+                  <a class="dropdown-item" href="#">日本語</a>
+                  <a class="dropdown-item" href="#">한국어</a>
+                  <a class="dropdown-item" href="#">Nederlands</a>
+                  <a class="dropdown-item" href="#">Português</a>
+                  <a class="dropdown-item" href="#">Русский</a>
+                </div>
+              </div>
+            </li>
+            <!-- End Language -->
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="w-md-75 text-lg-center mx-lg-auto">
+        <p class="text-muted small">&copy; Front. 2020 Htmlstream. All rights reserved.</p>
+        <p class="text-muted small">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
+      </div>
+      <!-- End Copyright -->
+    </div>
   </footer>
   <!-- ========== END FOOTER ========== -->
 
@@ -961,18 +1167,17 @@
   <!-- JS Implementing Plugins -->
   <script src="/vendor/hs-header/dist/hs-header.min.js"></script>
   <script src="/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
   <script src="/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="/vendor/slick-carousel/slick/slick.js"></script>
-  <script src="/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-  <script src="/vendor/hs-video-bg/dist/hs-video-bg.min.js"></script>
-  <script src="/vendor/typed.js/lib/typed.min.js"></script>
+  <script src="/vendor/hs-switch/dist/hs-switch-text.min.js"></script>
+  <script src="/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
   <script src="/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
   <script src="/vendor/aos/dist/aos.js"></script>
 
   <!-- JS Front -->
   <script src="/js/hs.core.js"></script>
-  <script src="/js/hs.slick-carousel.js"></script>
   <script src="/js/hs.validation.js"></script>
+  <script src="/js/hs.ion-range-slider.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -987,28 +1192,36 @@
         }
       }).init();
 
-      // initialization of slick carousel
-      $('.js-slick-carousel').each(function() {
-        var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+      // initialization of unfold
+      var unfold = new HSUnfold('.js-hs-unfold-invoker').init();
+
+      // initialization of ion range slider
+      var ionRangeSlider = $.HSCore.components.HSIonRangeSlider.init($('.js-ion-range-slider'), {
+        cusOnChange: function () {
+          var $checked = $('.js-switch-text:checked'),
+            defData = JSON.parse($checked.attr('data-hs-switch-text-options'));
+
+          defData.target[0].text = $('#rangeSliderResult').text();
+          defData.target[1].text = $('#rangeSliderSecondaryResult').text();
+
+          $checked.attr('data-hs-switch-text-options', JSON.stringify(defData));
+        }
       });
 
-      // initialization of video on background
-      $('.js-video-bg').each(function () {
-        var videoBg = new HSVideoBg($(this)).init();
-      });
-
-      // initialization of text animation (typing)
-      var typed = new Typed(".js-text-animation", {
-        strings: ["modern", "creative", "professional"],
-        typeSpeed: 70,
-        loop: true,
-        backSpeed: 40,
-        backDelay: 2000
+      // initialization of switch
+      $('.js-switch-text').each(function () {
+        var switchText = new HSSwitchText($(this), {
+          afterChange: function () {
+            ionRangeSlider.data('ionRangeSlider').update({
+              from: $(this)[0].target[0].text
+            });
+          }
+        }).init();
       });
 
       // initialization of form validation
-      $('.js-validate').each(function () {
-        var validation = $.HSCore.components.HSValidation.init($(this));
+      $('.js-validate').each(function() {
+        $.HSCore.components.HSValidation.init($(this));
       });
 
       // initialization of aos
@@ -1028,5 +1241,3 @@
   <script>
     if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="/vendor/polifills.js"><\/script>');
   </script>
-</body>
-</html>

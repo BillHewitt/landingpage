@@ -17,6 +17,11 @@
  *= require vendor/dzsparallaxer/dzsparallaxer.css
  *= require vendor/cubeportfolio/css/cubeportfolio.min.css
  *= require vendor/aos/dist/aos.css
+ *= require vendor/fancybox/dist/jquery.fancybox.min.css
+ *= require vendor/slick-carousel/slick/slick.css
+ *= require vendor/ion-rangeslider/css/ion.rangeSlider.css
+ *= require vendor/hs-video-bg/dist/hs-video-bg.min.css
+ *= require vendor/leaflet/dist/leaflet.css
  */
 
  @font-face {
